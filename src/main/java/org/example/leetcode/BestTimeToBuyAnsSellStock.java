@@ -14,6 +14,7 @@ public class BestTimeToBuyAnsSellStock {
         int maxProfit = 0;
 
         for (int price : prices) {
+
             if (price < minPrice) {
                 minPrice = price;
             } else {

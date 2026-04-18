@@ -19,6 +19,7 @@ public class RemoveAdjacentDuplicateElement {
             if (!stack.isEmpty() && stack.peek() == c) {
                 stack.pop();
             } else {
+
                 stack.push(c);
             }
         }

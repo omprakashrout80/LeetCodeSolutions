@@ -12,6 +12,7 @@ public class TwoArraysSum {
     }
 
     private static int[] twoArraysSum(int[] arr, int[] arr1) {
+
         int n = arr.length;
         int[] resArray = new int[n];
         for (int i = 0; i < n; i++) {

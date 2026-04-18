@@ -8,6 +8,7 @@ public class RemoveStarAndLeftCharFromStringWhereStarIsPresent {
         String str = "Lee*t**co*de";
         String formatedString = formatString(str);
         System.out.println(formatedString);
+
     }
 
     private static String formatString(String str) {
