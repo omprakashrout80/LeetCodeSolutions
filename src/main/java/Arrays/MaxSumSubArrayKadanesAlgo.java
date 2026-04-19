@@ -1,4 +1,4 @@
-package leetcode;
+package Arrays;
 
 public class MaxSumSubArrayKadanesAlgo {
 
