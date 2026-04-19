@@ -1,6 +1,4 @@
-package org.example.leetcode;
-
-import java.util.Arrays;
+package Arrays;
 
 public class MaxSumSubArrayKadanesAlgo {
 
@@ -17,7 +15,6 @@ public class MaxSumSubArrayKadanesAlgo {
         int maxSum = arr[0];
 
         for (int j : arr) {
-
             currentMax = Math.max(j, currentMax + j);
             maxSum = Math.max(maxSum, currentMax);
 

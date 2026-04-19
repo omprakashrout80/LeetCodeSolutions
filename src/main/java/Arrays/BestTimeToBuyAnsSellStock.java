@@ -1,4 +1,4 @@
-package org.example.leetcode;
+package Arrays;
 
 public class BestTimeToBuyAnsSellStock {
 
