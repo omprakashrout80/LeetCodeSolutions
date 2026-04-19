@@ -1,4 +1,4 @@
-package org.example.leetcode;
+package leetcode;
 
 public class BestTimeToBuyAnsSellStock {
 
